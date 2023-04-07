@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "./TopBanner.css";
-const TopBanner = () => {
+import "./Advantages.css";
+const Advantages = () => {
   const [drop, setDrop] = useState(false);
   let toggleDrop = () => {
     if (drop === false) {
@@ -10,44 +10,16 @@ const TopBanner = () => {
     }
   };
   return (
-    <section className="top-banner">
-      <div className="background">
-        <div className="top-banner__shadow-top" />
-        <div className="top-banner__space" />
-        <img
-          src="https://firestarter.fi/static/media/spaceman.9782e999.png"
-          className="top-banner__spaceman"
-          style={{ transform: "translate3d(1e-5px, -25px, 1e-5px)" }}
-        />
-        <img
-          src="https://firestarter.fi/static/media/cards-left.6452247d.png"
-          className="top-banner__cards-left"
-          style={{ transform: "translate3d(1e-5px, 47px, 1e-5px)" }}
-        />
-        <img
-          src="https://firestarter.fi/static/media/cards-right.37f515ba.png"
-          className="top-banner__cards-right"
-          style={{ transform: "translate3d(1e-5px, -37px, 1e-5px)" }}
-        />
-        <div className="top-banner__shadow-bottom" />
-      </div>
+    <section className="advantages-section">
       <div className="container">
-        <div className="hero-row row">
-          <div className="hero-row__main text-center">
-            <h1 className="title">
-              A Launchpad for AI and
-              <br />
-              Initial Metaverse Offerings
-            </h1>
-            <p className="subtitle">Own The Future</p>
-            <div className="hero-buttons">
-              <button
-                disabled
-                type="button"
-                className="round-button light large btn btn-main"
-              >
-                FitBurn Whitelist
-              </button>
+        <div className="justify-content-between row">
+          <div className="col-lg-6">
+            <h2 className="title gradient-text gradient-text--purple">
+              We facilitate the early stage funding of top AI projects,
+              Metaverse projects, and their communities by amplifying them
+              through culture.
+            </h2>
+            <div className="advantages-section__buttons">
               <div className="buy-flame-dropdown dropdown">
                 <button
                   onClick={toggleDrop}
@@ -100,6 +72,42 @@ const TopBanner = () => {
                   </a>
                 </div>
               </div>
+              <a className="round-button light large btn btn-main" href="#">
+                Lock $Flame Tokens
+              </a>
+            </div>
+          </div>
+          <div className="col-lg-5">
+            <div className="platform-advantages">
+              <div className="advantages-item">
+                <h3 className="advantages-item__title">
+                  Initial Metaverse Offering
+                </h3>
+                <p className="advantages-item__text">
+                  Introducing the IMO. Incubated projects with Metaverse
+                  integrations and solutions. Powered by communities from around
+                  the world. Own The Future.
+                </p>
+              </div>
+              <div className="advantages-item">
+                <h3 className="advantages-item__title">
+                  Amplified through Culture
+                </h3>
+                <p className="advantages-item__text">
+                  Our Celebrity, Influencer, and Industry Partners - providing
+                  unparalleled reach and social backing to FireStarter Projects.
+                </p>
+              </div>
+              <div className="advantages-item">
+                <h3 className="advantages-item__title">
+                  Community over Everything
+                </h3>
+                <p className="advantages-item__text">
+                  We don’t just launch tokens, we launch communities. Giving
+                  early adopters the first chance at participation, governance,
+                  and access.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -108,4 +116,4 @@ const TopBanner = () => {
   );
 };
 
-export default TopBanner;
+export default Advantages;

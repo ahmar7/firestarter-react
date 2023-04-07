@@ -12,7 +12,7 @@ const Slider = () => {
             <span className="swiper-pagination-bullet swiper-pagination-bullet-active" />
             <span className="swiper-pagination-bullet" />
           </div>
-          <a className="round-button light large btn btn-main" href="/projects">
+          <a className="round-button light large btn btn-main" href="#">
             All Projects
           </a>
         </div>
@@ -29,10 +29,7 @@ const Slider = () => {
               data-swiper-slide-index={0}
               style={{ marginRight: "32px" }}
             >
-              <a
-                className="project-slide"
-                href="/projects/Nwg4GiRmhrwuJuj7s5H3"
-              >
+              <a className="project-slide" href="#">
                 <header className="project-slide__head">
                   <div className="project-slide__tags">
                     <span className="project-tag coming-soon project-tag--status">
@@ -40,7 +37,7 @@ const Slider = () => {
                     </span>
                     <span className="project-tag project-tag--network">
                       <img
-                        src="/networks/bsc.png"
+                        src="https://firestarter.fi/networks/bsc.png"
                         className="project-tag__image"
                       />
                       <span>BSC</span>
@@ -75,10 +72,7 @@ const Slider = () => {
               data-swiper-slide-index={1}
               style={{ marginRight: "32px" }}
             >
-              <a
-                className="project-slide"
-                href="/projects/kNclf0AsrUW7vCXYvsCt"
-              >
+              <a className="project-slide" href="#">
                 <header className="project-slide__head">
                   <div className="project-slide__tags">
                     <span className="project-tag coming-soon project-tag--status">
@@ -86,7 +80,7 @@ const Slider = () => {
                     </span>
                     <span className="project-tag project-tag--network">
                       <img
-                        src="/networks/bsc.png"
+                        src="https://firestarter.fi/networks/bsc.png"
                         className="project-tag__image"
                       />
                       <span>BSC</span>
@@ -121,10 +115,7 @@ const Slider = () => {
               data-swiper-slide-index={2}
               style={{ marginRight: "32px" }}
             >
-              <a
-                className="project-slide"
-                href="/projects/I1sKPnWlG7vbwJ8fvr7t"
-              >
+              <a className="project-slide" href="#">
                 <header className="project-slide__head">
                   <div className="project-slide__tags">
                     <span className="project-tag coming-soon project-tag--status">
@@ -132,7 +123,7 @@ const Slider = () => {
                     </span>
                     <span className="project-tag project-tag--network">
                       <img
-                        src="/networks/solana.png"
+                        src="https://firestarter.fi/networks/solana.png"
                         className="project-tag__image"
                       />
                       <span>SOLANA</span>
@@ -167,10 +158,7 @@ const Slider = () => {
               data-swiper-slide-index={3}
               style={{ marginRight: "32px" }}
             >
-              <a
-                className="project-slide"
-                href="/projects/xTbUTF6UD8vNg0nAbNm3"
-              >
+              <a className="project-slide" href="#">
                 <header className="project-slide__head">
                   <div className="project-slide__tags">
                     <span className="project-tag coming-soon project-tag--status">
@@ -178,7 +166,7 @@ const Slider = () => {
                     </span>
                     <span className="project-tag project-tag--network">
                       <img
-                        src="/networks/polygon.png"
+                        src="https://firestarter.fi/networks/polygon.png"
                         className="project-tag__image"
                       />
                       <span>POLYGON</span>
@@ -213,10 +201,7 @@ const Slider = () => {
               data-swiper-slide-index={0}
               style={{ marginRight: "32px" }}
             >
-              <a
-                className="project-slide"
-                href="/projects/Nwg4GiRmhrwuJuj7s5H3"
-              >
+              <a className="project-slide" href="#">
                 <header className="project-slide__head">
                   <div className="project-slide__tags">
                     <span className="project-tag coming-soon project-tag--status">
@@ -224,7 +209,7 @@ const Slider = () => {
                     </span>
                     <span className="project-tag project-tag--network">
                       <img
-                        src="/networks/bsc.png"
+                        src="https://firestarter.fi/networks/bsc.png"
                         className="project-tag__image"
                       />
                       <span>BSC</span>
@@ -259,10 +244,7 @@ const Slider = () => {
               data-swiper-slide-index={1}
               style={{ marginRight: "32px" }}
             >
-              <a
-                className="project-slide"
-                href="/projects/kNclf0AsrUW7vCXYvsCt"
-              >
+              <a className="project-slide" href="#">
                 <header className="project-slide__head">
                   <div className="project-slide__tags">
                     <span className="project-tag coming-soon project-tag--status">
@@ -270,7 +252,7 @@ const Slider = () => {
                     </span>
                     <span className="project-tag project-tag--network">
                       <img
-                        src="/networks/bsc.png"
+                        src="https://firestarter.fi/networks/bsc.png"
                         className="project-tag__image"
                       />
                       <span>BSC</span>
@@ -305,10 +287,7 @@ const Slider = () => {
               data-swiper-slide-index={2}
               style={{ marginRight: "32px" }}
             >
-              <a
-                className="project-slide"
-                href="/projects/I1sKPnWlG7vbwJ8fvr7t"
-              >
+              <a className="project-slide" href="#">
                 <header className="project-slide__head">
                   <div className="project-slide__tags">
                     <span className="project-tag coming-soon project-tag--status">
@@ -316,7 +295,7 @@ const Slider = () => {
                     </span>
                     <span className="project-tag project-tag--network">
                       <img
-                        src="/networks/solana.png"
+                        src="https://firestarter.fi/networks/solana.png"
                         className="project-tag__image"
                       />
                       <span>SOLANA</span>
@@ -351,10 +330,7 @@ const Slider = () => {
               data-swiper-slide-index={3}
               style={{ marginRight: "32px" }}
             >
-              <a
-                className="project-slide"
-                href="/projects/xTbUTF6UD8vNg0nAbNm3"
-              >
+              <a className="project-slide" href="#">
                 <header className="project-slide__head">
                   <div className="project-slide__tags">
                     <span className="project-tag coming-soon project-tag--status">
@@ -362,7 +338,7 @@ const Slider = () => {
                     </span>
                     <span className="project-tag project-tag--network">
                       <img
-                        src="/networks/polygon.png"
+                        src="https://firestarter.fi/networks/polygon.png"
                         className="project-tag__image"
                       />
                       <span>POLYGON</span>
@@ -397,10 +373,7 @@ const Slider = () => {
               data-swiper-slide-index={0}
               style={{ marginRight: "32px" }}
             >
-              <a
-                className="project-slide"
-                href="/projects/Nwg4GiRmhrwuJuj7s5H3"
-              >
+              <a className="project-slide" href="#">
                 <header className="project-slide__head">
                   <div className="project-slide__tags">
                     <span className="project-tag coming-soon project-tag--status">
@@ -408,7 +381,7 @@ const Slider = () => {
                     </span>
                     <span className="project-tag project-tag--network">
                       <img
-                        src="/networks/bsc.png"
+                        src="https://firestarter.fi/networks/bsc.png"
                         className="project-tag__image"
                       />
                       <span>BSC</span>
@@ -443,10 +416,7 @@ const Slider = () => {
               data-swiper-slide-index={1}
               style={{ marginRight: "32px" }}
             >
-              <a
-                className="project-slide"
-                href="/projects/kNclf0AsrUW7vCXYvsCt"
-              >
+              <a className="project-slide" href="#">
                 <header className="project-slide__head">
                   <div className="project-slide__tags">
                     <span className="project-tag coming-soon project-tag--status">
@@ -454,7 +424,7 @@ const Slider = () => {
                     </span>
                     <span className="project-tag project-tag--network">
                       <img
-                        src="/networks/bsc.png"
+                        src="https://firestarter.fi/networks/bsc.png"
                         className="project-tag__image"
                       />
                       <span>BSC</span>
@@ -489,10 +459,7 @@ const Slider = () => {
               data-swiper-slide-index={2}
               style={{ marginRight: "32px" }}
             >
-              <a
-                className="project-slide"
-                href="/projects/I1sKPnWlG7vbwJ8fvr7t"
-              >
+              <a className="project-slide" href="#">
                 <header className="project-slide__head">
                   <div className="project-slide__tags">
                     <span className="project-tag coming-soon project-tag--status">
@@ -500,7 +467,7 @@ const Slider = () => {
                     </span>
                     <span className="project-tag project-tag--network">
                       <img
-                        src="/networks/solana.png"
+                        src="https://firestarter.fi/networks/solana.png"
                         className="project-tag__image"
                       />
                       <span>SOLANA</span>
@@ -535,10 +502,7 @@ const Slider = () => {
               data-swiper-slide-index={3}
               style={{ marginRight: "32px" }}
             >
-              <a
-                className="project-slide"
-                href="/projects/xTbUTF6UD8vNg0nAbNm3"
-              >
+              <a className="project-slide" href="#">
                 <header className="project-slide__head">
                   <div className="project-slide__tags">
                     <span className="project-tag coming-soon project-tag--status">
@@ -546,7 +510,7 @@ const Slider = () => {
                     </span>
                     <span className="project-tag project-tag--network">
                       <img
-                        src="/networks/polygon.png"
+                        src="https://firestarter.fi/networks/polygon.png"
                         className="project-tag__image"
                       />
                       <span>POLYGON</span>

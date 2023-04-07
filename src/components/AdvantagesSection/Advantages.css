@@ -1,0 +1,24 @@
+.advantages-section {
+  padding-top: 90px;
+  padding-bottom: 110px;
+}
+.advantages-section__buttons {
+  display: flex;
+  margin-top: 38px;
+}
+.platform-advantages {
+  padding-right: 10%;
+}
+.platform-advantages .advantages-item {
+  margin-bottom: 40px;
+}
+.platform-advantages .advantages-item__title {
+  font-size: 32px;
+  margin-bottom: 16px;
+  line-height: 1.12;
+  font-weight: 700;
+}
+.platform-advantages .advantages-item__text {
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}

@@ -1,0 +1,26 @@
+.header {
+  position: relative;
+}
+.header__connect-wallet span {
+  background-color: hsla(0, 0%, 100%, 0.1);
+  text-transform: none;
+  display: block;
+  padding: inherit;
+  border-radius: inherit;
+}
+.header__connect-wallet span,
+.scroll-to-top {
+  -webkit-backdrop-filter: blur(40px);
+  backdrop-filter: blur(40px);
+}
+.overlay-active {
+  height: 100vh;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+  z-index: 2;
+}
+.nav-dropdown__menu.dropdown-menu {
+  z-index: 99999999 !important;
+}
