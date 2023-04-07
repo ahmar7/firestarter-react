@@ -1,0 +1,27 @@
+.below-banner {
+  width: 80%;
+  max-width: 1200px;
+  margin: 100px auto 40px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+.below-banner__contract,
+.below-banner__powered-by {
+  display: flex;
+  flex-direction: column;
+}
+.below-banner__contract__title,
+.below-banner__powered-by__title {
+  font-size: 20px;
+  font-weight: 500;
+  color: grey;
+  text-transform: uppercase;
+}
+.below-banner__powered-by {
+  width: 66%;
+}
+.below-banner__powered-by__icons {
+  display: flex;
+  justify-content: space-between;
+}

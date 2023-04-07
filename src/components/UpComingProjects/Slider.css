@@ -1,0 +1,57 @@
+.no-projects-tile {
+  height: 400px;
+  padding: 46px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+}
+.projects-page .no-projects-tile {
+  height: 240px;
+}
+.no-projects-tile .dots {
+  margin-bottom: 26px;
+}
+.no-projects-tile .dots > div {
+  display: inline-block;
+  margin: 0 6px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  box-shadow: 0 4px 40px rgba(254, 150, 70, 0.4);
+}
+.no-projects-tile .dots > div:first-child {
+  background: linear-gradient(116.94deg, #ff7d61 14.14%, #fe9e46 87.43%);
+}
+.no-projects-tile .dots > div:nth-child(2) {
+  background: linear-gradient(116.94deg, #feb446 14.14%, #fe9e46 87.43%);
+}
+.no-projects-tile .dots > div:nth-child(3) {
+  background: linear-gradient(171.87deg, #ff6d6d -21.09%, #feb446 115.63%);
+}
+.projects-page .title:first-child {
+  position: relative;
+}
+.projects-live {
+  padding-top: 32px;
+  padding-bottom: 65px;
+}
+.projects-upcoming {
+  padding-top: 35px;
+  padding-bottom: 65px;
+}
+.projects-upcoming .ellipse22 {
+  left: unset;
+  right: 5%;
+  top: 40%;
+}
+.projects-upcoming .ellipse23 {
+  left: 28%;
+  top: unset;
+  bottom: 120px;
+}
+.projects-completed {
+  padding-top: 35px;
+  padding-bottom: 110px;
+}
