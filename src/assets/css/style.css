@@ -27,6 +27,8 @@
   height: 100%;
   z-index: 1;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   transition-property: transform;
   box-sizing: content-box;
 }

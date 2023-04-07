@@ -116,3 +116,29 @@
 .projects-slider__nav-next:hover svg path {
   fill: var(--color-text-violet);
 }
+.slick-arrow.slick-next {
+  display: block;
+  position: absolute;
+  right: 12px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 40px !important ;
+  line-height: 1;
+  content: ">" !important;
+  opacity: 1 !important;
+  font-family: cursive !important;
+  color: white;
+}
+.slick-dots {
+  bottom: -37px !important;
+}
+.slick-dots li.slick-active button:before {
+  color: white !important;
+}
+
+.slick-dots li button:before {
+  color: white !important;
+  font-size: 12px !important;
+}

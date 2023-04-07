@@ -1942,9 +1942,16 @@ header .nav-link {
 }
 .projects-slider-slides {
   width: 100%;
+  padding-bottom: 50px;
 }
+body::-webkit-scrollbar {
+  display: none !important;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
 .projects-slider .swiper-slide {
-  width: 392px;
+  width: auto;
   transition: opacity 0.15s linear;
 }
 .projects-slider
@@ -1972,7 +1979,7 @@ header .nav-link {
   fill: var(--color-text-violet);
 }
 .project-slide {
-  width: 392px;
+  width: 97%;
   height: 100%;
   display: flex;
   flex-direction: column;
