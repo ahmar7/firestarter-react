@@ -3,7 +3,7 @@ import "./Description.css";
 const Description = () => {
   return (
     <section className="description-section">
-      <div className="container">
+      <div className="containerer">
         <div className="justify-content-between align-items-center row">
           <div className="col-lg-6">
             <h2 className="title">

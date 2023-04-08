@@ -3,7 +3,7 @@ import "./GetReady.css";
 const GetReady = () => {
   return (
     <section className="get-ready-section">
-      <div className="container">
+      <div className="containerer">
         <div className="mt-auto row">
           <div className="col">
             <div className="tile--with-shadow text-center get-ready-badge">
@@ -11,7 +11,7 @@ const GetReady = () => {
                 Is your project ready to be launched?
               </div>
               <a
-                className="round-button light large wide btn btn-main"
+                className="round-button light large wide btn btn-main nop"
                 href="#"
               >
                 Apply here

@@ -22,13 +22,13 @@ const Home = () => {
         <Features />
         <Carousel />
         <Advantages />
-        {/* <Description />
+        <Description />
         <GetReady />
         <Tiers />
         <TimeWrap />
-        <Faq /> */}
+        <Faq />
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
