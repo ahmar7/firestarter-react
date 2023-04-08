@@ -91,3 +91,11 @@
 .leaderboard-page .features-section {
   margin-bottom: 80px;
 }
+@media (max-width: 400px) {
+  .features-item__content {
+    padding-left: 90px !important;
+  }
+  .features-item {
+    width: 312px !important;
+  }
+}

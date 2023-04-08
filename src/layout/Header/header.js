@@ -2,11 +2,19 @@ import React, { useState } from "react";
 import "./Header.css";
 const Header = () => {
   const [drop, setDrop] = useState(false);
+  const [nav, setNav] = useState(false);
   let toggleDrop = () => {
     if (drop === false) {
       setDrop(true);
     } else {
       setDrop(false);
+    }
+  };
+  let navToggle = () => {
+    if (nav === true) {
+      setNav(false);
+    } else {
+      setNav(true);
     }
   };
   return (
@@ -19,11 +27,17 @@ const Header = () => {
               <img
                 src="https://firestarter.fi/static/media/logo.fcbc44c0.svg"
                 alt="Logo"
-                className="d-inline-block align-top"
+                className="d-inline-block align-top header-logo"
               />
             </a>
           </span>
-          <div className="justify-content-end navbar-collapse collapse">
+          <div
+            className={
+              nav
+                ? "justify-content-end navbar-collapse collapse show-nav  full-height"
+                : "justify-content-end navbar-collapse collapse show-nav"
+            }
+          >
             <a href="#" className="nav-link">
               Leaderboard
             </a>
@@ -85,6 +99,9 @@ const Header = () => {
                 <span>CONNECT</span>
               </button>
             </div>
+          </div>
+          <div className="hamburger-ico hide-desk">
+            <i className="fa-solid fa-bars" onClick={navToggle}></i>
           </div>
         </nav>
       </header>

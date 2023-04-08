@@ -10,7 +10,19 @@ const Carousel = () => {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+    ],
   };
+
   return (
     <>
       <section className="coming-projects">
@@ -18,7 +30,7 @@ const Carousel = () => {
           <div className="projects-slider__info">
             <h2 className="title">FireStarter Projects</h2>
 
-            <a className="round-button light large btn btn-main" href="#">
+            <a className="round-button light large btn btn-main nop" href="#">
               All Projects
             </a>
           </div>

@@ -11,7 +11,7 @@ const Advantages = () => {
   };
   return (
     <section className="advantages-section">
-      <div className="container">
+      <div className="containerer">
         <div className="justify-content-between row">
           <div className="col-lg-6">
             <h2 className="title gradient-text gradient-text--purple">

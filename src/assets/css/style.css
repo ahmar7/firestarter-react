@@ -4262,7 +4262,7 @@ fieldset:disabled .btn {
   overflow: visible;
 }
 .navbar-expand .navbar-collapse {
-  display: flex !important;
+  display: flex;
   flex-basis: auto;
 }
 .navbar-expand .navbar-toggler {
@@ -9685,5 +9685,13 @@ fieldset:disabled .btn {
   }
   .d-print-none {
     display: none !important;
+  }
+}
+@media (max-width: 820px) {
+  .hide-mbl {
+    display: none !important;
+  }
+  .header-logo {
+    width: auto;
   }
 }
