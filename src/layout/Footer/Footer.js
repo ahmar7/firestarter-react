@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="footer">
@@ -7,12 +8,12 @@ const Footer = () => {
         <div className="justify-content-between left-align row">
           <div className="col-xl-3 col-12">
             <div className="footer__logo">
-              <a href="#">
+              <Link to="/">
                 <img
                   src="https://firestarter.fi/static/media/logo.fcbc44c0.svg"
                   alt="Logo"
                 />
-              </a>
+              </Link>
             </div>
             <div className="footer__token-address token-address mt-4">
               <img
@@ -457,7 +458,10 @@ const Footer = () => {
                 <h4 className="footer__title">
                   Join The FireStarter Community
                 </h4>
-                <a className="round-button light large btn btn-main nop" href="#">
+                <a
+                  className="round-button light large btn btn-main nop"
+                  href="#"
+                >
                   Fuel The Fire
                 </a>
               </div>
