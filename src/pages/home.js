@@ -3,7 +3,7 @@ import Header from "../layout/Header/header";
 import TopBanner from "../components/TopBanner/TopBanner";
 import BelowBanner from "../components/BelowBanner/BelowBanner";
 import Features from "../components/Features/Features";
-import Advantages from "../components/AdvantagesSection/Advantages";
+import Advantages from "../components/HomeComponents/AdvantagesSection/Advantages";
 import Description from "../components/DescriptionSection/Description";
 import GetReady from "../components/GetReadySection/GetReady";
 import Tiers from "../components/TiersSection/Tiers";

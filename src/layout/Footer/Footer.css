@@ -141,3 +141,23 @@
 .left-align {
   text-align: left;
 }
+@media (max-width:768px) {
+  .footer{
+    margin-top: 40px !important;
+  }
+  .footer__logo{
+    margin-bottom: 15px !important;
+  }
+  .token-address, .token-address .copiable{margin-bottom: 10px !important;}
+  .footer__col-content{
+    flex-wrap: wrap !important;
+  }
+  .footer-copyrights, .quantstamp-marks li a, .quantstamp-marks li span{
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: left !important;
+  }
+ .quantstamp-marks a img, .footer .quantstamp-marks{
+    margin-left: 0 !important;
+  }
+}

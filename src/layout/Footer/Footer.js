@@ -457,7 +457,7 @@ const Footer = () => {
                 <h4 className="footer__title">
                   Join The FireStarter Community
                 </h4>
-                <a className="round-button light large btn btn-main" href="#">
+                <a className="round-button light large btn btn-main nop" href="#">
                   Fuel The Fire
                 </a>
               </div>

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css";
+import { Link } from "react-router-dom";
 const Header = () => {
   const [drop, setDrop] = useState(false);
   const [nav, setNav] = useState(false);
@@ -23,13 +24,13 @@ const Header = () => {
       <header className="header container-fluid">
         <nav className="navbar navbar-expand navbar-light">
           <span className="navbar-brand">
-            <a href="#">
+            <Link to="/">
               <img
                 src="https://firestarter.fi/static/media/logo.fcbc44c0.svg"
                 alt="Logo"
                 className="d-inline-block align-top header-logo"
               />
-            </a>
+            </Link>
           </span>
           <div
             className={
@@ -44,9 +45,11 @@ const Header = () => {
             <a href="#" className="nav-link">
               Metaverse NFT
             </a>
-            <a href="#" className="nav-link">
-              Projects
-            </a>
+            <Link to="/projects" className="nav-link">
+              
+                Projects
+               
+            </Link>
             <div className="nav-dropdown dropdown">
               <button
                 type="button"
